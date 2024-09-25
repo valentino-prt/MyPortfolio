@@ -1,0 +1,133 @@
+baseURL: ""
+languageCode: en-us
+title: valentinpoirot
+theme: ["PaperMod"]
+
+#enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+#googleAnalytics: ""
+pygmentsUseClasses: true
+
+
+params:
+  env: production
+  title: valentinpoirot
+  description: "Personal Portfolio of Valentin Poirot"
+  Keywords: [Blog, Portfolio, Valentin Poirot, Software Developer]
+  author: Valentin Poirot
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+
+#  analytics:
+#    google:
+#      SiteVerificationTag: ""
+  
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+
+languages:
+  en:
+    languageName: English
+    weight: 1
+
+    menu:
+      main:
+          - identifier: about
+            name: About
+            url: about/
+            weight: 10
+          - identifier: posts
+            name: Blog
+            url: posts/
+            weight: 20
+            weight: 25
+          - identifier: CV
+            name: CV
+            url: cv.pdf
+            weight: 30
+
+
+    params:
+      homeInfoParams:
+        Title: "[~]$ whoami"
+        Content: Software Developer Engineer, specialized in scientific development. I’m driven by a passion for solving algorithmic challenges and exploring new technologies like cloud computing and data science. With a strong interest in quantitative fields and finance, I enjoy adapting to new environments and tackling complex problems, always eager to innovate and push the boundaries of technology. [Read more](/about/)
+
+      socialIcons:
+          - name: github
+            title: View Source on Github
+            url: "https://github.com/valentino-prt"
+          - name: linkedin
+            title: Connect on LinkedIn
+            url: "https://www.linkedin.com/in/valentin-poirot-3077a7197/"
+          - name: X
+            title: Share PaperMod on X/Twitter
+            url: "https://x.com/valentinoprt"
+  
+  
+  fr:
+    languageName: ":fr:"
+    weight: 2
+
+    menu:
+      main:
+          - identifier: about
+            name: À propos
+            url: about/
+            weight: 10
+          - identifier: posts
+            name: Blog
+            url: posts/
+            weight: 20
+          - identifier: CV
+            name: CV
+            url: cv.pdf
+            weight: 30
+
+    params:
+      homeInfoParams:
+        Title: "[~]$ whoami"
+        Content: Ingénieur Développement Logiciel, spécialisé dans le développement scientifique. Animé par la résolution de défis algorithmiques et l’exploration de nouvelles technologies comme le cloud computing et la science des données, j’ai un fort intérêt pour les domaines quantitatifs et la finance. J’aime m’adapter à de nouveaux environnements, relever des problèmes complexes et innover en repoussant les frontières de la technologie. [En savoir plus](/about/)
+
+      socialIcons:
+          - name: github
+            title: Voir le code source sur Github
+            url: "https://github.com/adityatelange/hugo-PaperMod"
+          - name: Discord
+            title: Rejoindre la communauté Discord
+            url: "https://discord.gg/ahpmTvhVmp"
+          - name: X
+            title: Partager PaperMod sur X/Twitter
+            url: "https://x.com"
