@@ -2,6 +2,8 @@
 title = 'About Me'
 date = 2024-09-23T16:39:10+02:00
 draft = false
+layout = "about"
+image = "images/me.jpg"
 +++
 
 Hello, my name is Valentin Poirot, and I’m from France.
@@ -9,6 +11,8 @@ Hello, my name is Valentin Poirot, and I’m from France.
 This personal blog is where I share my learning journey, projects, and the skills I’ve developed over time. You’ll find articles detailing my professional experiences, technical reflections, and personal projects that I work on in my spare time.
 
 I’m always looking for new opportunities to collaborate with other professionals and love to learn new things. Feel free to contact me with any questions or suggestions at: [valentin.poirot@outlook.com](mailto:valentin.poirot@outlook.com).
+
+
 
 ### Here are a few interesting pages to explore:
 

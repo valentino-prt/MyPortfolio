@@ -2,8 +2,9 @@
 title = 'À propos de moi'
 date = 2024-09-23T16:39:10+02:00
 draft = false
+layout = "about"
+image = "images/me.jpg"
 +++
-
 Bonjour, je m'appelle Valentin Poirot et je suis Français.
 
 Ce blog personnel me permet de partager mon parcours d'apprentissage, mes projets, et les compétences que j'ai développées au fil du temps. Vous y trouverez des articles détaillant mes expériences professionnelles, des réflexions sur des sujets techniques, ainsi que des projets personnels auxquels je consacre mon temps libre.
